@@ -1,0 +1,90 @@
+section {
+  position: relative;
+  background-color: transparent !important;
+}
+
+section .img {
+  position: absolute;
+  left:0; 
+  top:0;
+  background-size: cover;
+  min-height: 200px;
+  width: 100%;
+  opacity: 0.45;
+  background-image: url("../img/8.jpg");
+  z-index: -1;
+}
+
+section .container {
+  background-color: transparent;
+}
+
+.message-box {
+  margin-top: -10px;
+  height: 40px;
+  background-color: rgba(0,0,0,.03);
+}
+
+.message-box p {
+  margin-top: -5px;
+  font-size: 11pt;
+}
+
+.card {
+  margin-bottom: 10px;
+}
+
+.font-bree {
+  font-family: 'Bree Serif';
+}
+
+.font-pd {
+  font-family: 'Playfair Display';
+}
+
+.font-pd-black {
+  font-family: 'Playfair Display Black';
+}
+
+.button-diskusi {
+  border-radius: 0;
+}
+
+.bg-footer {
+  background-color: #F9F3F4;
+}
+
+.img-footer {
+  width: 200px;
+  margin-top: -10px;
+}
+
+.jumbotron {
+  background-image: url(../img/header.png);
+  background-size: cover;
+  height: 100%;
+  -webkit-filter: grayscale(20%);
+  filter: grayscale(20%);
+}
+
+
+@media screen and (min-width: 601px) {
+  div.jumbotron h1 {
+    font-size: 72pt;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.jumbotron h1 {
+    font-size: 18pt;
+  }
+}
+
+.button-unggah {
+  margin-left: -30px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
